@@ -76,6 +76,7 @@ export type Product = {
   _updatedAt: string;
   _rev: string;
   productType?: string;
+  name?: string;
   slug?: Slug;
   image?: {
     asset?: {
@@ -245,6 +246,7 @@ export type ALL_PRODUCTS_QUERYResult = Array<{
   _updatedAt: string;
   _rev: string;
   productType?: string;
+  name?: string;
   slug?: Slug;
   image?: {
     asset?: {
